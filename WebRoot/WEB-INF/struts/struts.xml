@@ -1,0 +1,44 @@
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 2.3//EN" "xwork-2.3.dtd">
+<xwork>
+	<include file="struts-default.xml"/>
+    <!-- 设置最大单个文件大小,单位为B 1024 * 1024 * 300   暂时设置300M -->
+    <constant name="struts.multipart.maxSize" value="314572800"/> 
+    <!-- 允许访问静态方法和变量 -->
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true"/>
+    
+	<package name="cux-struts" extends="struts-default" namespace="/servlet">
+		<interceptors>
+			<interceptor-stack name="devStack">
+				<interceptor-ref name="defaultStack">
+					<param name="exception.logEnabled">true</param>
+					<param name="exception.logLevel">error</param>
+				</interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="devStack" />
+		
+		<global-results>
+			<result name="notauthorized">
+				<param name="location">/globalPage/ErrorPage.jsp</param>
+			</result>
+			<result name="error">
+				<param name="location">/globalPage/ErrorPage.jsp</param>
+			</result>
+		</global-results>
+	</package>
+
+	<package name="default" extends="cux-struts" namespace="/servlet">
+		<!-- 
+		主页
+		http://localhost:8080/pmquery/servlet/main
+		 -->
+		<action name="main" class="com.ruijie.base.action.main.MainAction">
+			<result name="success">
+				<param name="location">/index.jsp</param>
+			</result>
+		</action>
+	</package>
+		
+	<include file="../struts/base/struts-userconfig.xml"/>
+</xwork>
