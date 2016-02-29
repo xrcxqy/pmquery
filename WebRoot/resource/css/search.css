@@ -1,0 +1,6 @@
+.x-table-layout td {
+    vertical-align:top;
+}
+.setup{
+	background-image:url(../img/main/tree_config.png)!important;
+}

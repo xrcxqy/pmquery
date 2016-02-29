@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 2.3//EN" "../xwork-2.3.dtd">
+<xwork>
+	<package name="servlet_pminfo" extends="cux-struts" namespace="/servlet/pminfo">
+		<!-- 
+		http://localhost:8080/pmquery/servlet/pminfo/query
+		 -->
+		<action name="query"      class="com.ruijie.pm.action.pminfo.QueryAction">
+			<result name="init">
+				<param name="location">/web/query/pm/search.jsp</param>
+			</result>
+			
+			<result name="queryResult">
+				<param name="location">/web/query/pm/result.jsp</param>
+			</result>
+		</action>
+	</package>
+</xwork>

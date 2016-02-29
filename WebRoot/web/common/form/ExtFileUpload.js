@@ -1,0 +1,7 @@
+var ExtFileUpload = {};
+
+ExtFileUpload.setting = {
+	
+
+
+}

@@ -1,0 +1,15 @@
+.tbar_query{
+	background-image: url('../../img/userconfig/query.PNG')!important;
+}
+
+.tbar_delete{
+	background-image: url('../../img/userconfig/delete.PNG')!important;
+}
+
+.tbar_edit{
+	background-image: url('../../img/userconfig/edit.PNG')!important;
+}
+
+.tbar_save{
+	background-image: url('../../img/userconfig/save.png')!important;
+}

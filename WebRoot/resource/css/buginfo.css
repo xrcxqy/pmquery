@@ -1,0 +1,113 @@
+.x-icon-project_setup {
+    background-image: url('../resources/images/cog.png')!important;
+}
+
+.bugIdCs{
+	margin-bottom:10px;
+	font-family:"微软雅黑","黑体","宋体";
+	font-size:18px;
+	font-weight:bold;
+	text-align: left;
+}
+
+.extDisplayField{
+	text-align: left;
+}
+
+.loginfoTable{
+	width:100%;
+	border:1;
+	font-size:9pt;
+	line-height:20px;
+	background-color:#ffffff
+}
+
+.input{
+	font-size:9pt;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	Border-color:black;
+	background-color:#ffffff
+}
+
+
+.loginfoTableUserInfo{	
+	FONT-SIZE: 9pt;
+	color:#000000;
+	line-height:20px;
+	background-color:#F9F7E8
+}
+
+.loginfoTableLogMsg{
+	background-color: #E8F2F8;
+	word-break :break-all;
+	
+}
+
+.loginfoTableLogTitle{
+	background-color: #C4E1E1;
+	word-break :break-all;
+	font-size: 15;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sameAs{
+	background-image: url('../img/buginfo/sameAs.png')!important;
+}
+
+.bugSynchronous{
+	background-image: url('../img/buginfo/bugSynchronous.png')!important;
+}
+
+.mirrorBug{
+	background-image: url('../img/buginfo/tbar_mirrorBug.png')!important;
+}
+
+
+.x-fieldset-ex {
+    padding:0px;
+}
+
+.dealPeopleCls {
+	margin-left: 10px;
+}
+
+.tbar_attention{
+	background-image: url('../img/buginfo/tbar_unattention.png')!important;
+}
+
+.tbar_unattention{
+	background-image: url('../img/buginfo/tbar_attention.png')!important;
+}
+.tbar_save_template{
+	background-image: url('../img/buginfo/tabr_saveTemplate.png')!important;
+}
+.tbar_fix{
+	background-image: url('../img/buginfo/tbar_fix.png')!important;
+}
+
+.tbar_home{
+	background-image: url('../img/buginfo/tbar_home.png')!important;
+}
+
+.tbar_refresh{
+	background-image: url('../img/buginfo/tbar_refresh.png')!important;
+}
+
+.tbar_copy{
+	background-image: url('../img/buginfo/tbar_copy.png')!important;
+}
+/*未点击过的链接*/
+a:link { color: #080808; text-decoration: none}
+
+/*已点击过的链接*/
+a:visited { color: gray; text-decoration: none}
+
+/*鼠标停留在上面的链接*/
+a:hover { color: #6E6E6E; text-decoration: underline}
+
+/*当前激活的链接*/
+a:active { color: #800080; text-decoration: underline}

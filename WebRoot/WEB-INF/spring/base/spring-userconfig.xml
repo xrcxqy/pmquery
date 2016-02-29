@@ -14,6 +14,7 @@
 	<bean id="userInfoDao" 						    class="com.ruijie.base.dao.userconfig.UserInfoDao"></bean>
 	
 	<bean id="userInfoProvider" 					class="com.ruijie.base.service.userconfig.UserInfoProvider"></bean>
+	<bean id="userConfigProvider" 					class="com.ruijie.base.service.userconfig.UserConfigProvider"></bean>
 
 	
 </beans>

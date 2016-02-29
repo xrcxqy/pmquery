@@ -56,5 +56,6 @@
 	
 
 	<import resource="base/spring-userconfig.xml"/>
-	
+	<import resource="pminfo/spring-pminfo.xml"/>
+	<import resource="system/spring-system.xml"/>
 </beans>

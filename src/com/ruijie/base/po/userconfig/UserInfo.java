@@ -18,7 +18,6 @@ public class UserInfo extends CommonPO {
 	private Integer id;
 	private String name;
 	private String email;
-	private String casSsoId;
 
 	/** default constructor */
 	public UserInfo() {
@@ -33,7 +32,6 @@ public class UserInfo extends CommonPO {
 	public UserInfo(String name, String email, String casSsoId) {
 		this.name = name;
 		this.email = email;
-		this.casSsoId = casSsoId;
 	}
 
 	// Property accessors
@@ -63,17 +61,9 @@ public class UserInfo extends CommonPO {
 		this.email = email;
 	}
 
-	public String getCasSsoId() {
-		return this.casSsoId;
-	}
-
-	public void setCasSsoId(String casSsoId) {
-		this.casSsoId = casSsoId;
-	}
-
 	@Override
 	public String toString() {
-		String str=this.getId()+" "+this.getCasSsoId()+" "+this.getName();
+		String str=this.getId()+ this.getName();
 		return str;
 	}
 
@@ -88,7 +78,6 @@ public class UserInfo extends CommonPO {
 		if (config != null) {
 			if (config.getParseToJsonAll()) {
 				obj.put("email", email);
-				obj.put("casSsoId", casSsoId);
 			}
 		}
 		return obj;

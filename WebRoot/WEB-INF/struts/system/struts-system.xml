@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 2.3//EN" "../xwork-2.3.dtd">
+<xwork>
+	<package name="servlet_system" extends="cux-struts" namespace="/servlet/system">
+		<!-- 
+		http://localhost:8080/pmquery/servlet/userconfig/userInfo
+		 -->
+		<action name="sysQueryItem"      class="com.ruijie.base.action.system.SysQueryItemAction"></action>
+	</package>
+</xwork>

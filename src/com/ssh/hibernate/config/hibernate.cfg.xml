@@ -16,15 +16,15 @@
 	<property name="connection.password">apps102</property>
 	-->
 	 
-	<!--  测试系统连接 Devp8005 -->
+	<!--  测试系统连接 Devp8005
 	<property name="description">测试05数据库连接</property>
 	<property name="connection.url">
 		jdbc:oracle:thin:@192.168.58.81:1526:devpdemo
 	</property>
-	<property name="connection.username">apps</property>
-	<property name="connection.password">apps102</property>
+	<property name="connection.username">root</property>
+	<property name="connection.password">lgf123456</property>
 	
-
+ -->
 	<!-- 
 		正式系统连接
 	<property name="description">正式环境数据库连接</property>
@@ -34,16 +34,30 @@
 	<property name="connection.username">apps</property>
 	<property name="connection.password">apps_erp1359</property>
 	-->
+	
+	<!-- Oracle 配置
 	<property name="dialect">
 		org.hibernate.dialect.Oracle10gDialect
 	</property>
-	
-	<!-- 链接数据库的Driver -->
+
 	<property name="connection.driver_class">
 		oracle.jdbc.OracleDriver
 	</property>
-	
-	
+	 -->
+	 
+	<property name="description">本地Mysql数据库</property>
+	<property name="connection.url">
+		jdbc:mysql://localhost/pmquery
+	</property>
+	<property name="connection.username">root</property>
+	<property name="connection.password">lgf123456</property>
+	<property name="dialect">
+		org.hibernate.dialect.MySQLInnoDBDialect
+	</property>
+
+	<property name="connection.driver_class">
+		com.mysql.jdbc.Driver
+	</property>
 	<property name="myeclipse.connection.profile">accessory_server</property>
 	
 	<property name="hibernate.c3p0.min_size">10</property>
@@ -53,10 +67,11 @@
 
 	<property name="hibernate.c3p0.max_statements">0</property>
 	<property name="hibernate.c3p0.idle_test_period">300</property>
-	<property name="show_sql">false</property>
+	<property name="show_sql">true</property>
 	
 	<!-- 表单关联关系 -->
-	<mapping
-		resource="com/ruijie/base/po/userconfig/UserInfo.hbm.xml" /> 
+	<mapping resource="com/ruijie/base/po/userconfig/UserInfo.hbm.xml" /> 
+	<mapping resource="com/ruijie/base/po/system/SysQueryItem.hbm.xml" /> 
+	<mapping resource="com/ruijie/pm/po/pminfo/PmInfo.hbm.xml" /> 
 </session-factory>
 </hibernate-configuration>

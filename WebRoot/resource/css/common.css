@@ -1,0 +1,33 @@
+.underline{
+	border-bottom:1px dashed #000;
+	cursor: pointer;
+	autoHeight:true;
+	padding-left:2px;
+	padding-bottom: 1px;
+}
+
+.displayfieldvalue{
+	margin-left:10px;
+}
+.displayfieldimg{
+	cursor:pointer;
+	width :13;
+	height:13;
+	margin-left: 10px;
+}
+
+.fileupload_add{
+	background-image: url('../img/buginfo/fileUpload_add.PNG')!important;
+}
+
+.fileupload_upload{
+	background-image: url('../img/buginfo/fileUpload_upload.PNG')!important;
+}
+
+.fileupload_stop{
+	background-image: url('../img/buginfo/fileUpload_stop.PNG')!important;
+}
+
+.fileupload_del{
+	background-image: url('../img/buginfo/fileUpload_del.PNG')!important;
+}

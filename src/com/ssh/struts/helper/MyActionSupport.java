@@ -20,6 +20,7 @@ public class MyActionSupport extends ActionSupport {
 	 */
 	public String type;
 	
+	protected final String QUERY_TYPE_ALL = "QUERY_ALL";
 	/**
 	 * 获得request
 	 * 

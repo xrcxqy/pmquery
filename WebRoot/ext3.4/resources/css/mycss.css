@@ -1,0 +1,195 @@
+.test{
+    background-image:url(../images/myimage/tip.png)!important;
+}
+.icon-expand-all {
+    background-image: url(../images/myimage/expand-all.gif) !important;
+}
+.icon-collapse-all {
+    background-image: url(../images/myimage/collapse-all.gif) !important;
+}
+
+.icon-tree{
+    background-image:url(../images/myimage/tree.png)!important;
+}
+
+.icon-form{
+    background-image:url(../images/myimage/form.png)!important;
+}
+
+.icon-collection{
+	background-image:url(../images/myimage/letfTree/collection.png)!important;
+}
+.icon-new-collection{
+	background-image:url(../images/myimage/page_add.png)!important;
+}
+.icon-new-collection-ccm{
+	background-image:url(../images/myimage/script_add.png)!important;
+}
+.icon-analysis{
+	background-image:url(../images/myimage/letfTree/analysis.png)!important;
+}
+.icon-find{
+	background-image:url(../images/myimage/find.png)!important;
+}
+.icon-report{
+	background-image:url(../images/myimage/report.png)!important;
+}
+.icon-distribution{
+	background-image:url(../images/myimage/letfTree/distribution.png)!important;
+}
+
+.icon-check{
+	background-image:url(../images/myimage/letfTree/check.png)!important;
+}
+.icon-setup{
+	background-image:url(../images/myimage/cog.png)!important;
+}
+.icon-setup-user{
+	background-image:url(../images/myimage/group_edit.png)!important;
+}
+.edit_user{
+    background-image:url(../images/myimage/user_add.png)!important;
+}
+.devide{
+    background-image:url(../images/myimage/arrow_divide.png)!important;
+}
+.transfer{
+    background-image:url(../images/myimage/user_go.png)!important;
+}
+.return{
+    background-image:url(../images/myimage/arrow_undo.png)!important;
+}
+.filter{
+    background-image:url(../images/myimage/filter.png)!important;
+}
+.edit{
+    background-image:url(../images/myimage/page_white_edit.png)!important;
+}
+.plan{
+    background-image:url(../images/myimage/plan.png)!important;
+}
+.stop{
+    background-image:url(../images/myimage/stop.png)!important;
+}
+.pass{
+    background-image:url(../images/myimage/tick.png)!important;
+}
+.apply{
+    background-image:url(../images/myimage/apply.png)!important;
+}
+.pool{
+    background-image:url(../images/myimage/pool.png)!important;
+}
+.icon-pages{
+	background-image:url(../images/myimage/page_white_stack.png)!important;
+}
+.icon-history{
+	background-image:url(../images/myimage/folder_page.png)!important;
+}
+.icon-blue{
+	background-image:url(../images/myimage/flag_blue.png)!important;
+}
+.icon-green{
+	background-image:url(../images/myimage/flag_green.png)!important;
+}
+.icon-orange{
+	background-image:url(../images/myimage/flag_orange.png)!important;
+}
+.icon-pink{
+	background-image:url(../images/myimage/flag_pink.png)!important;
+}
+.icon-red{
+	background-image:url(../images/myimage/flag_red.png)!important;
+}
+.icon-purple{
+	background-image:url(../images/myimage/flag_purple.png)!important;
+}
+.icon-yellow{
+	background-image:url(../images/myimage/flag_yellow.png)!important;
+}
+.icon-doing{
+	background-image:url(../images/myimage/work.png)!important;
+}
+.icon-flower{
+	background-image:url(../images/myimage/flower.png)!important;
+}
+.submit{
+	background-image:url(../images/myimage/save_commit.gif)!important;
+}
+.bmenu {
+    background-image: url(../images/myimage/menu-show.gif) !important;
+}
+.delete{
+	background-image: url(../images/myimage/delete.png) !important;
+}
+.add{
+	background-image: url(../images/myimage/add.png) !important;
+}
+.excel{
+    background-image:url(../images/myimage/excel.png)!important;
+}
+.save_userquery{
+	background-image: url(../images/myimage/userquery_save.png) !important;
+}
+.search{
+    background-image:url(../images/myimage/srch.gif)!important;
+}
+.reset{
+    background-image:url(../images/myimage/reset.gif)!important;
+}
+.waitAccept{
+	background-image:url(../images/myimage/page_white_stack.png)!important;
+}
+.helpHeard{
+	background-image:url(../images/myimage/help/help.png)!important;
+}
+.help1{
+	background-image:url(../images/myimage/help/help_1.png)!important;
+}
+
+.discuss{
+	background-image: url(../images/myimage/discuss.png) !important;
+}
+#or_infor td,th { 
+	font-size: 13px; 
+	padding: 3px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+} 
+#or_infor .header {
+	color: #000000;
+	font-size: 13px;
+	background-color: #F8C77C
+}
+#or_infor .header_gray {
+	color: #000000;
+	font-size: 13px;
+	background-color: #F5F5DC;
+}
+#or_infor table{
+	width: 100%;
+	table-layout: fixed;
+	margin-top: 3px;
+}
+#or_infor .td1{
+	border: none;
+}
+#notice{
+text-align: center;
+margin-top: 20
+}
+.distribute_header {
+	color: #000000;
+	font-size: 13px;
+	background-color: #D1EEEE
+}
+.complete .x-tree-node-anchor span {
+    color:blue;
+    font-weight: bold;
+}
+.hasOr{
+	background-image:url(../images/myimage/folder_page.png)!important;
+}

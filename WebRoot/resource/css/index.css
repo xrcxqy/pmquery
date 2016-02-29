@@ -1,0 +1,414 @@
+img{
+	vertical-align:text-bottom;
+}
+#app-header {
+    color: #596F8F;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 5px 0px 0px 15px;
+    text-shadow: 0 1px 0 #fff;
+}
+.x-icon-project_setup {
+    background-image: url('../resources/images/cog.png')!important;
+}
+.x-icon-help{
+    background-image: url('../resources/images/help.png')!important;
+}
+.x-icon-bug{
+    background-image: url('../resources/images/bug.png')!important;
+}
+.x-icon-code{
+    background-image: url('../resources/images/page_white_c.png')!important;
+}
+.x-icon-error{
+    background-image: url('../resources/images/error.png')!important;
+}
+.x-icon-require-error{
+    background-image: url('../resources/images/r.png')!important;
+}
+.x-icon-apply{
+    background-image: url('../resources/images/new.png')!important;
+}
+.x-icon-database_save{
+    background-image: url('../resources/images/database_save.png')!important;
+}
+.x-icon-query {
+    background-image: url('../resources/images/zoom.png')!important;
+}
+.x-icon-other{
+    background-image: url('../resources/images/lock.png')!important;
+}
+.x-icon-my{
+    background-image: url('../resources/images/myapply.png')!important;
+}
+.x-icon-check{
+    background-image: url('../resources/images/check.png')!important;
+}
+.x-icon-queryadd {
+    background-image: url('../resources/images/query_add.png')!important;
+}
+.x-icon-myquery {
+    background-image: url('../resources/images/myquery.png')!important;
+}
+.lefttitle{
+	font-weight: bold;
+	text-align: right;
+	font-size: 15px;
+	vertical-align: top;
+}
+
+.x-icon-dir{
+	background-image: url('../resources/images/expand-all.gif')!important;
+}
+.x-icon-remove{
+	background-image: url('../resources/images/delete.png')!important;
+}
+.x-icon-add{
+	background-image: url('../resources/images/add.gif')!important;
+}
+.title{
+	font-size: 13px;
+	font-weight: bolder;
+	color: blue;
+	vertical-align: top;
+}
+.task_title{
+	font-weight: bolder;
+	background-color:#FFFACD;
+	text-align: center;
+}
+.task_item{
+	background-color:#F0F8FF;
+	padding: 5px;
+}
+.notice{
+	font-size: 13px;
+}
+.underline{
+	border-bottom:1px dashed #000;
+	cursor: pointer;
+	autoHeight:true;
+	padding-left:2px;
+	padding-bottom: 1px;
+}
+.error-fieldset .x-fieldset-header{
+	color:#0000CC ;
+	font-size: 20px;
+	font-weight: bold;
+}
+.error-fieldset td{
+	color:#0000CC ;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ci-fieldset .x-fieldset-header{
+	color: #15428b;
+	font-size: 15px;
+	width:100%;
+	background-color: #F0F8FF;
+	padding:5px 0px 5px 15px;
+}
+.ci-fieldset{
+	background-color: #F0F8FF;
+	padding:5px 0px 5px 0px;
+}
+.effect-fieldset .x-fieldset-header{
+	color: #15428b;
+	font-size: 15px;
+	width:100%;
+	background-color: #F8F8FF;
+	padding:5px 0px 5px 5px;
+}
+.effect-fieldset{
+	background-color: #F8F8FF;
+	padding:5px 0px 5px 0px;
+}
+.log-fieldset .x-fieldset-header{
+	color: #15428b;
+	font-size: 15px;
+	padding:5px 0px 5px 5px;
+}
+.changeContent-fieldset .x-fieldset-header{
+	color: #15428b;
+	font-size: 15px;
+	width:100%;
+	background-color: #FAFAD2;
+	padding:5px 0px 5px 15px;
+}
+.changeContent-fieldset{
+	background-color: #FAFAD2;
+	padding:5px 0px 5px 0px;
+}
+.noticeContent-fieldset .x-fieldset-header{
+	color: #15428b;
+	font-size: 15px;
+	width:100%;
+	background-color: #CCEEFF;
+	padding:5px 0px 5px 15px;
+}
+.noticeContent-fieldset{
+	background-color: #CCEEFF;
+	padding:5px 0px 5px 0px;
+}
+#notice{
+	font-size: 15px
+}
+#notice #title{
+	color:blue;
+	font-weight: bold;
+}
+#notice span{
+	font-weight: bold;
+}
+.creat-form-botton{
+	background-color:#55AA00;
+	border-style: solid;
+	cursor: pointer;
+	color: white;
+	padding:4 0 0 4;
+	font-weight: bold;
+}
+.TaskTable{
+	table-layout: fixed;
+	width: 100%;
+}
+.TaskTable td{
+	font-size: 13px;
+	padding: 2 5 2 5;
+	text-align: left;
+}
+.project_td{
+	font-weight: bold;
+	padding: 5px;
+	background-color: #FFEE99;
+}
+.x-plain .x-panel-header{
+	background: #007799;
+	color:white;
+}
+.project_header .x-accordion-hd{
+	background: #FFEE99;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	font-size: 13px;
+}
+.project_header{
+	font-size: 13px;
+}
+.crid_link{
+	cursor: pointer;
+	color:blue;
+	text-decoration: underline;
+	margin-right: 5px;
+}
+.more_link{
+	cursor: pointer;
+	color:blue;
+	font-weight:bold;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+.more_link img{
+	cursor: pointer;
+	vertical-align: text-bottom;
+}
+.text_del{
+	margin-right: 5px;
+	margin-bottom:2px;
+	background-color:#DDDDDD;
+	font-size: 13px;
+	padding: 2 5 2 5;
+	height: 15px;
+	border-style: solid;
+	border-width: 1px;
+}
+.text_del img{
+	cursor: pointer;
+}
+.query{
+	background-image: url('../resources/images/tag_purple.png')!important;
+}
+.ci_list{
+	list-style-type:disc;
+	background-color: #DDDDDD;
+	padding:5 0 5 5;
+	font-weight: bold;
+}
+.ei_list{
+	list-style-type:disc;
+	padding:5 0 5 0;
+	font-size: 15px;
+	color: #AA7700;
+	font-weight: bold;
+}
+.ei_list_span{
+	font-weight: bold;
+	margin-left: 10px;
+}
+.ci_link{
+	cursor: pointer;
+	color:#008888;
+	margin-right: 5px;
+}
+.attachment_link{
+	cursor: pointer;
+	color:#DDAA00;
+	margin-right: 5px;
+	font-weight: bold;
+}
+.log_table{
+	table-layout: fixed;
+	width: 100%;
+	font-size: 13px;
+	border-collapse:collapse;
+	border:1px solid #FFCA5E;
+}
+.log_table td{
+	border-style: solid;
+	border-width:1px;
+	padding:5px;
+	text-align: center;
+	border-color:#FFCA5E; 
+}
+.header{
+	font-weight: bold;
+	text-align: center;
+}
+.edit{
+	background-image: url('../resources/images/pencil.png')!important;
+}
+#changeButton{
+	margin-left: 200;
+}
+
+.displayfieldvalue{
+	margin-left:10px;
+}
+.displayfieldimg{
+	cursor:pointer;
+	width :13;
+	height:13;
+	margin-left: 10px;
+}
+
+.collectBug{
+	background-image: url('../img/main/add.png')!important;
+}
+
+.quit{
+	background-image: url('../img/main/quit.png')!important;
+}
+
+.addBug{
+	background-image: url('../img/main/addbug.png')!important;
+}
+
+.search{
+	background-image: url('../img/main/search.png')!important;
+}
+
+.flag_blue{
+	background-image: url('../img/main/flag_blue.png')!important;
+}
+
+.flag_green{
+	background-image: url('../img/main/flag_green.png')!important;
+}
+
+.flag_orange{
+	background-image: url('../img/main/flag_orange.png')!important;
+}
+
+.flag_pink{
+	background-image: url('../img/main/flag_pink.png')!important;
+}
+
+.flag_purple{
+	background-image: url('../img/main/flag_purple.png')!important;
+}
+
+.flag_red{
+	background-image: url('../img/main/flag_red.png')!important;
+}
+
+.flag_yellow{
+	background-image: url('../img/main/flag_yellow.png')!important;
+}
+
+.treeConfig{
+	background-image: url('../img/main/tree_config.png')!important;
+}
+
+.myquery{
+	background-image: url('../img/main/tree_myquery.png')!important;
+}
+
+.setting{
+	background-image: url('../img/main/setting/setting.png')!important;
+}
+
+.setting_save_query{
+	background-image: url('../img/main/setting/query.PNG')!important;
+}
+
+.setting_template{
+	background-image: url('../img/main/setting/template.png')!important;
+}
+
+.setting_usersetting{
+	background-image: url('../img/main/setting/usersetting.png')!important;
+}
+
+.mycatch{
+	background-image: url('../img/main/setting/mycatch.png')!important;
+}
+
+
+.system_config{
+	background-image: url('../img/main/system/systemConfig.png')!important;
+}
+
+.config_workpackage{
+	background-image: url('../img/main/system/workpackage.png')!important;
+}
+
+.config_operatesystem{
+	background-image: url('../img/main/system/operatesystem.png')!important;
+}
+
+.config_functionModule{
+	background-image: url('../img/main/system/functionModule.png')!important;
+}
+
+.help{
+	background-image: url('../img/main/help/help.png')!important;
+}
+
+.help_book_open{
+	background-image: url('../img/main/help/book_open.png')!important;
+}
+
+.help_book_close{
+	background-image: url('../img/main/help/book_close.png')!important;
+}
+.bbar_update{
+	background-image: url('../img/buginfo/tbar_update.png')!important;
+}
+.underline{
+	border-bottom:1px dashed #000;
+	cursor: pointer;
+	autoHeight:true;
+	padding-left:2px;
+	padding-bottom: 1px;
+}
+
+.displayfieldvalue{
+	margin-left:10px;
+}
+.displayfieldimg{
+	cursor:pointer;
+	width :13;
+	height:13;
+}
+

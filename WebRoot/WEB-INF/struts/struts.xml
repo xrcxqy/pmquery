@@ -35,10 +35,14 @@
 		 -->
 		<action name="main" class="com.ruijie.base.action.main.MainAction">
 			<result name="success">
-				<param name="location">/index.jsp</param>
+				<param name="location">/web/main/index.jsp</param>
 			</result>
 		</action>
 	</package>
 		
 	<include file="../struts/base/struts-userconfig.xml"/>
+	
+	<include file="../struts/pminfo/struts-pminfo.xml"/>
+
+	<include file="../struts/system/struts-system.xml"/>
 </xwork>
