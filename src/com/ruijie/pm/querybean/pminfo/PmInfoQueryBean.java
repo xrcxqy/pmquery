@@ -21,8 +21,8 @@ public class PmInfoQueryBean extends PageQueryBean {
 	public JSONObject parseParams() {
   		JSONObject obj = new JSONObject();
   		if (pmInfo != null) {
-			if(pmInfo.getDealUser() != null){
-				obj.put("queryBean.pmInfo.dealUser", pmInfo.getDealUser());
+			if(pmInfo.getAcceptedUser() != null){
+				obj.put("queryBean.pmInfo.dealUser", pmInfo.getAcceptedUser());
 			}
   			
 		}

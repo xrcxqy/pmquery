@@ -10,11 +10,95 @@
             <column name="id" />
             <generator class="native" />
         </id>
-        <property name="dealUser" type="java.lang.String">
-            <column name="deal_user"/>
+        <property name="acceptedUser" type="java.lang.String">
+            <column name="accepted_user"/>
         </property>
-        <property name="dealDate" type="java.util.Date">
-            <column name="deal_date"/>
+        <property name="acceptedDate" type="java.util.Date">
+            <column name="accepted_date"/>
         </property>
+        <property name="manualWorkOrder" type="java.lang.String">
+            <column name="manual_work_order"/>
+        </property>
+		<property name="workOrder" type="java.lang.String">
+            <column name="work_order"/>
+        </property>
+        
+		<property name="customerCategory" type="java.lang.String">
+            <column name="customer_category"/>
+        </property>
+		<property name="repairUnit" type="java.lang.String">
+            <column name="repair_unit"/>
+        </property>
+		<property name="customerName" type="java.lang.String">
+            <column name="customer_name"/>
+        </property>
+		<property name="customerPhone" type="java.lang.String">
+            <column name="customer_phone"/>
+        </property>
+		<property name="customerOtherPhone" type="java.lang.String">
+            <column name="customer_other_phone"/>
+        </property>
+		
+		<property name="buyDate" type="java.util.Date">
+            <column name="buy_date"/>
+        </property>
+		<property name="productBrand" type="java.lang.String">
+            <column name="product_brand"/>
+        </property>
+		<property name="productName" type="java.lang.String">
+            <column name="product_name"/>
+        </property>
+		<property name="IMEI" type="java.lang.String">
+            <column name="IMEI"/>
+        </property>
+		<property name="isInWarranty" type="java.lang.String">
+            <column name="is_in_warranty"/>
+        </property>
+        
+		<property name="productFaultType" type="java.lang.String">
+            <column name="product_fault_type"/>
+        </property>
+		<property name="faultDescription" type="java.lang.String">
+            <column name="fault_description"/>
+        </property>
+		<property name="faultPhenomenon" type="java.lang.String">
+            <column name="fault_phenomenon"/>
+        </property>
+		<property name="serviceMode" type="java.lang.String">
+            <column name="service_mode"/>
+        </property>
+		<property name="serviceDescription" type="java.lang.String">
+            <column name="service_description"/>
+        </property>
+        
+		<property name="newIMEI" type="java.lang.String">
+            <column name="new_IMEI"/>
+        </property>
+		<property name="replacePartName" type="java.lang.String">
+            <column name="replace_part_name"/>
+        </property>
+		<property name="reasonForService" type="java.lang.String">
+            <column name="reason_for_service"/>
+        </property>
+		<property name="serviceRemark" type="java.lang.String">
+            <column name="service_remark"/>
+        </property>
+		<property name="pickPhoneDate" type="java.util.Date">
+            <column name="pick_phone_date"/>
+        </property>
+        
+		<property name="pickPhoneRemark" type="java.lang.String">
+            <column name="pick_phone_remark"/>
+        </property>
+		<property name="acceptedReviewer" type="java.lang.String">
+            <column name="accepted_reviewer"/>
+        </property>
+		<property name="serviceReviewer" type="java.lang.String">
+            <column name="service_reviewer"/>
+        </property>
+		<property name="quotedPrice" type="java.lang.Integer">
+            <column name="quoted_price"/>
+        </property>
+        
     </class>
 </hibernate-mapping>

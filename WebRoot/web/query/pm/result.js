@@ -13,7 +13,7 @@ Ext.onReady(function(){
     var maxWidth=0;
     var defaultCol=null;
     Ext.each(columns,function(item,index,allItem){
-    	if (item.header == '处理人员') {
+    	if (item.header == '报价') {
     		item.id = "autoExpandColumn";
     		defaultCol=item;
     	}
