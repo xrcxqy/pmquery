@@ -73,5 +73,6 @@
 	<mapping resource="com/ruijie/base/po/userconfig/UserInfo.hbm.xml" /> 
 	<mapping resource="com/ruijie/base/po/system/SysQueryItem.hbm.xml" /> 
 	<mapping resource="com/ruijie/pm/po/pminfo/PmInfo.hbm.xml" /> 
+	<mapping resource="com/ruijie/pm/po/pminfo/PmQuotedPrice.hbm.xml" /> 
 </session-factory>
 </hibernate-configuration>

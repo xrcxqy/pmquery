@@ -5,8 +5,10 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import com.ruijie.pm.po.pminfo.PmInfo;
+import com.ruijie.pm.po.pminfo.PmQuotedPrice;
 import com.ruijie.pm.querybean.pminfo.PmInfoQueryBean;
 import com.ruijie.pm.service.pminfo.PmInfoProvider;
+import com.ruijie.pm.service.pminfo.PmQuotedPriceProvider;
 import com.ruijie.util.transform.Ext;
 import com.ssh.struts.helper.MyActionSupport;
 @SuppressWarnings("serial")
@@ -14,6 +16,7 @@ public class QueryAction extends MyActionSupport {
 	private String type;
 	private PmInfoQueryBean queryBean;
 	private PmInfoProvider pmInfoProvider;
+	private PmQuotedPriceProvider pmQuotedPriceProvider;
 	/**
 	 * http://192.168.231.103:8080/bug_switch/servlet/query?queryBean.submitDateFrom=2014-1-21
 	 * query?queryBean.viewBugInfo.affectCaseCount=1
@@ -59,6 +62,12 @@ public class QueryAction extends MyActionSupport {
 				//String dateFormat = DateUtil.getPrecision(queryBean.getDatePrecision());
 //				String dateFormat = DateUtil.getPrecision(4);
 				
+
+				// 2. 添加报价信息
+				PmQuotedPrice price = pmQuotedPriceProvider.queryByWorkOrder(pmInfo.getWorkOrder());
+				if(price != null){ 
+					price.parseToJson(eachJsonObj);
+				}
 				// 非直接关联表,额外新增列的代码
 				// 解决时间resolvedDate
 				tempColumn = "resolvedDate";
@@ -125,5 +134,7 @@ public class QueryAction extends MyActionSupport {
 		this.pmInfoProvider = pmInfoProvider;
 	}
 
-	
+	public void setPmQuotedPriceProvider(PmQuotedPriceProvider pmQuotedPriceProvider) {
+		this.pmQuotedPriceProvider = pmQuotedPriceProvider;
+	}
 }
